@@ -1,3 +1,27 @@
+windows下编译这个项目
+1. 先下载panda3d
+2. 使用vs创建一个项目
+3. 添加头文件 D:\Panda3D-1.10.1-x64\include 和 D:\Panda3D-1.10.1-x64\python\include 
+4. 添加链接库D:\Panda3D-1.10.1-x64\python\libs和 D:\Panda3D-1.10.1-x64\lib
+5. 添加依赖 
+libp3framework.lib
+libpanda.lib
+libpandaexpress.lib
+libp3dtool.lib
+libp3dtoolconfig.lib
+libp3pystub.lib
+libp3direct.lib
+libpandafx.lib
+
+6. 看你下的是64还是32位的， 设置 release 和 架构。 
+7. 去掉main.cxx 头文件 #include <unistd.h> 不然会使用 panda3d的std 文件。
+8. 编译好如下
+![](0.png)
+
+
+
+
+
 ![3D Game Shaders For Beginners](https://i.imgur.com/I51n2QP.gif)
 
 # 3D Game Shaders For Beginners
