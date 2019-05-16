@@ -16,6 +16,7 @@ libpandafx.lib
 6. 看你下的是64还是32位的， 设置 release 和 架构。 
 7. 去掉main.cxx 头文件 #include <unistd.h> 不然会使用 panda3d的std 文件。
 8. 编译好如下
+
 ![](0.png)
 
 
