@@ -1,5 +1,5 @@
 windows下编译这个项目
-1. 先下载panda3d
+1. 先下载panda3d 将panda3d  /bin 文件添加到环境变量
 2. 使用vs创建一个项目
 3. 添加头文件 D:\Panda3D-1.10.1-x64\include 和 D:\Panda3D-1.10.1-x64\python\include 
 4. 添加链接库D:\Panda3D-1.10.1-x64\python\libs和 D:\Panda3D-1.10.1-x64\lib
